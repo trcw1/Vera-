@@ -442,6 +442,15 @@ body {
     line-height: 1.8;
 }
 
+.info-item a {
+    color: #c9a96e;
+    text-decoration: none;
+}
+
+.info-item a:hover {
+    text-decoration: underline;
+}
+
 /* Contact Form */
 .contact-form {
     background: white;
@@ -493,6 +502,78 @@ body {
     text-align: center;
 }
 
+/* Privacy Policy Page */
+.privacy-section {
+    padding: 80px 20px;
+}
+
+.privacy-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.privacy-block {
+    margin-bottom: 3rem;
+    border-left: 4px solid #c9a96e;
+    padding-left: 1.5rem;
+}
+
+.privacy-block h2 {
+    font-size: 1.5rem;
+    color: #1a1a1a;
+    margin-bottom: 1rem;
+}
+
+.privacy-block h3 {
+    font-size: 1.1rem;
+    color: #333;
+    margin: 1rem 0 0.5rem;
+}
+
+.privacy-block p,
+.privacy-block li {
+    color: #555;
+    line-height: 1.9;
+}
+
+.privacy-block ul {
+    padding-left: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.privacy-block a {
+    color: #c9a96e;
+    text-decoration: none;
+}
+
+.privacy-block a:hover {
+    text-decoration: underline;
+}
+
+.privacy-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+}
+
+.privacy-table th {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 0.75rem 1rem;
+    text-align: left;
+}
+
+.privacy-table td {
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+}
+
+.privacy-table tr:nth-child(even) td {
+    background-color: #f9f9f9;
+}
+
 /* Footer */
 footer {
     background-color: #1a1a1a;
@@ -500,6 +581,15 @@ footer {
     padding: 2rem 0;
     text-align: center;
     margin-top: auto;
+}
+
+footer a {
+    color: #c9a96e;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 /* Responsive Design */
